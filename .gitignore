@@ -1,3 +1,12 @@
 node_modules
 # Keep environment variables out of version control
 .env
+# TypeScript
+dist/
+*.tsbuildinfo
+# SQLite database
+*.db
+*.db-journal
+
+# Migrations directory
+migrations/
